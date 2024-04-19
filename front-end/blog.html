@@ -1,0 +1,520 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Blog</title>
+
+    <!-- bootstrap -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous" />
+    <!-- font-awsome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+        integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <!-- owl css -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css"
+        integrity="sha512-tS3S5qG0BlhnQROyJXvNjeEM4UpMXHrQfTGmbQ1gKmelCxlSEBUaxhRBj/EFTzpbP4RVSrpEikbmdJobCvhE3g=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <!-- owl theme css -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.css"
+        integrity="sha512-OTcub78R3msOCtY3Tc6FzeDJ8N9qvQn1Ph49ou13xgA9VsH9+LRxoFU6EqLhW4+PKRfU+/HReXmSZXHEkpYoOA=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <!-- external css -->
+
+    <!-- common for all pages -->
+    <link rel="stylesheet" href="css/style.css" />
+    <!-- for single page -->
+    <link rel="stylesheet" href="css/blog.css" />
+    <!-- font cdn -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Raleway&family=Spectral&display=swap" rel="stylesheet">
+</head>
+
+<body>
+ 
+    <!-- hero -->
+    <div class="container-fluid head-ban vh-100 pt-1 pb-2"
+        style="background-image: url(https://images.pexels.com/photos/5928039/pexels-photo-5928039.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1);">
+        <div class="container-fluid navbar-container fixed-top">
+            <div class="container pt-3">
+                <nav class="navbar navbar-expand-lg ">
+                    <div class="container-fluid">
+                        <a class="navbar-brand w-25" href="index.html">
+                            <img src="Images/B-Logo-White-1.png" alt="" class="img-responsive  "
+                                style="background: none !important; max-width: 100%; min-width: 60%;">
+                        </a>
+                        <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                            data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                            aria-expanded="false" aria-label="Toggle navigation">
+                            <span class="navbar-toggler-icon"></span>
+                        </button>
+                        <div class="collapse navbar-collapse " id="navbarSupportedContent">
+                            <ul class="navbar-nav mx-auto mb-2 mb-lg-0">
+                                <li class="nav-item ms-4">
+                                    <a class="nav-link active" aria-current="page" href="about.html">About</a>
+                                </li>
+                                <li class="nav-item dropdown ms-4">
+                                    <a class="nav-link dropdown-toggle" role="button" data-bs-toggle="dropdown"
+                                        aria-expanded="false" href="shop.html">Shop</a>
+                                    <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                        <li><a class="dropdown-item" href="#">Mystery Box</a></li>
+                                        <li>
+                                            <a class="dropdown-item" href="shop.html">Beyonist Face and Body</a>
+                                        </li>
+                                    </ul>
+                                </li>
+                                <li class="nav-item  ms-4">
+                                    <a class="nav-link" href="blog.html" id="navbarDropdown" role="button"
+                                        aria-expanded="false">
+                                        Blog
+                                    </a>
+                                 
+                                </li>
+                                
+                                <li class="nav-item ms-4">
+                                    <a class="nav-link" href="#">Track Order</a>
+                                </li>
+
+                                <div class="dropdown ms-2">
+                                    <button class="btn btn-primary dropdown-toggle nav-link" type="button"
+                                        id="dropdownMenuButton" data-bs-toggle="dropdown" aria-expanded="false"
+                                        style="background: none !important ; border: none !important;">
+                                        Policy
+                                    </button>
+                                    <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                                        <li><a class="dropdown-item" href="T&C.html">Terms & Condition</a></li>
+                                        <li><a class="dropdown-item" href="Refund & return.html">Return and Refund
+                                                Policy</a></li>
+                                        <li><a class="dropdown-item" href="Shipping.html">Shipping Policy</a></li>
+
+                                    </ul>
+                                </div>
+                                <li class="nav-item ms-4">
+                                    <a class="nav-link" href="career.html">
+                                        Join Us
+                                    </a>
+                                </li>
+                            </ul>
+                            <div class="dropdown">
+                                <button class="btn btn-primary dropdown-toggle" type="button" id="dropdownMenuButton"
+                                    data-bs-toggle="dropdown" aria-expanded="false"
+                                    style="background: none !important ; border: none !important;">
+                                    <i class="fa-regular fa-user fa-2xl"></i>
+                                </button>
+                                <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                                    <li><a class="dropdown-item" href="login.html">Login</a></li>
+                                    <li><a class="dropdown-item" href="#">Register</a></li>
+                                    <li><a class="dropdown-item d-flex" href="cart.html"><i
+                                                class="fa-solid fa-cart-shopping fa-xs mt-1"
+                                                style="color: #000000;"></i>
+                                            <span class="ms-2">
+                                                <p>
+                                                    Cart
+                                                </p>
+                                            </span>
+                                        </a>
+                                    </li>
+                                    <li><a class="dropdown-item" href="#">SubMenu 4</a></li>
+                                </ul>
+                               </div>
+                               
+                                    <div class="theme-switch-container"> 
+                                        <label class="theme-slider" for="checkbox"> 
+                                            <input type="checkbox" id="checkbox" class="d-none"/> 
+                                            <div class="round slider"></div> 
+                                        </label> 
+                                    </div> 
+                             
+                            </div>
+                    </div>
+                </nav>
+            </div>
+        </div>
+    </div>
+
+    <!-- news and events -->
+    <div class="container-fluid ">
+        <div class="row justify-content-around pt-5">
+            <div class="col-xl-5 col-md-5 pt-5">
+                <img src="Images/Sunblock-Lotion-100ml-2-scaled.jpg.webp" alt="Sunblock-Lotion-100ml-2-scaled"
+                    class="img-fluid img-responsive ">
+
+                <!-- news -->
+                <div class="container mt-5" style="border: 1px black dotted !important;">
+                    <ul>
+
+                        <li>
+                            <a href="">
+                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Aut illum amet, nostrum quis
+                                similique hic voluptatibus corrupti, recusandae nulla fuga doloremque ullam ratione
+                                officiis. Tempore dolore culpa doloremque placeat magni.
+                            </a>
+                        </li>
+                        <li>
+                            <a href="">
+                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Aut illum amet, nostrum quis
+                                similique hic voluptatibus corrupti, recusandae nulla fuga doloremque ullam ratione
+                                officiis. Tempore dolore culpa doloremque placeat magni.
+                            </a>
+                        </li>
+                        <li>
+                            <a href="">
+                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Aut illum amet, nostrum quis
+                                similique hic voluptatibus corrupti, recusandae nulla fuga doloremque ullam ratione
+                                officiis. Tempore dolore culpa doloremque placeat magni.
+                            </a>
+                        </li>
+                        <li>
+                            <a href="">
+                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Aut illum amet, nostrum quis
+                                similique hic voluptatibus corrupti, recusandae nulla fuga doloremque ullam ratione
+                                officiis. Tempore dolore culpa doloremque placeat magni.
+                            </a>
+                        </li>
+                        <li>
+                            <a href="">
+                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Aut illum amet, nostrum quis
+                                similique hic voluptatibus corrupti, recusandae nulla fuga doloremque ullam ratione
+                                officiis. Tempore dolore culpa doloremque placeat magni.
+                            </a>
+                        </li>
+                        <li>
+                            <a href="">
+                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Aut illum amet, nostrum quis
+                                similique hic voluptatibus corrupti, recusandae nulla fuga doloremque ullam ratione
+                                officiis. Tempore dolore culpa doloremque placeat magni.
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <div class="col-xl-7 col-md-7 pt-5 bg-light bg-gradient">
+                <!-- blog head -->
+                <div class="container">
+                    <h1 class="text-start">
+                        Find Your Perfect Skincare Routine Today - Discover Our <strong
+                            style="color: #fe828c;">Blog</strong> for Expert Tips
+                        and Advice!
+                    </h1>
+                </div>
+
+                <!-- blog content-1 -->
+                <div class="container mt-5">
+                    <h6 class="text-start">
+                        We appreciate and cherish each person's individual look in a culture that often establishes
+                        criteria for beauty. Every skin tone, face shape, and unique feature, in our opinion, reflects a
+                        compelling story of tenacity and resolve. Our mission is to create beauty products that reflect
+                        the inner tenacity that defines who you are and enhance your outside look.
+                    </h6>
+                    <div class="row justify-content-around mt-5">
+                        <div class="col-md-6">
+                            <a href="#" onclick="showSection('products')">
+                                <button class="btn shop-now-btn mt-2">Products</button>
+                            </a>
+                            <a href="#" onclick="showSection('quick-reads')">
+                                <button class="btn shop-now-btn mt-2">Quick Reads</button>
+                            </a>
+                            <a href="#" onclick="showSection('tutorials')">
+                                <button class="btn shop-now-btn mt-2">Tutorials</button>
+                            </a>
+                            <a href="#" onclick="showSection('new')">
+                                <button class="btn shop-now-btn mt-2">What's new</button>
+                            </a>
+                        </div>
+                        <div class="col-md-6"></div>
+                    </div>
+                </div>
+
+                <!-- blog content-2 -->
+
+                <div id="default" class="section container mt-5">
+                    <div class="card">
+                        <img src="Images/Mystery-box-coming-soon-ad---landscape.jpg" alt="" class="img-responsive ">
+                    </div>
+                    <h5 class="mt-3">
+                        One of the most thrilling aspects of the Beyonist Mystery Box is the element of surprise. By
+                        embracing the unknown, you open yourself up to a world of limitless possibilities.
+                    </h5>
+
+                    <ul class="mt-4">
+                        <li>
+                            <p>
+                                <strong>Silver</strong> Explore our premium Mystery Box collection, now available for
+                                just Rs999. Uncover the
+                                excitement of discovering three random products, each offering delightful surprises such
+                                as
+                                mugs, chocolates, diaries, pens, mobile stands, belts, clutches, candle jars, and travel
+                                pillows. Don't hesitate - take a look at our website and social media platforms today.
+                                Embrace the thrill of our Mystery Box! Act fast before it's too late!
+                            </p>
+                        </li>
+                        <li>
+                            <p>
+                                <strong>Silver</strong> Explore our premium Mystery Box collection, now available for
+                                just Rs999. Uncover the
+                                excitement of discovering three random products, each offering delightful surprises such
+                                as
+                                mugs, chocolates, diaries, pens, mobile stands, belts, clutches, candle jars, and travel
+                                pillows. Don't hesitate - take a look at our website and social media platforms today.
+                                Embrace the thrill of our Mystery Box! Act fast before it's too late!
+                            </p>
+                        </li>
+                        <li>
+                            <p>
+                                <strong>Silver</strong> Explore our premium Mystery Box collection, now available for
+                                just Rs999. Uncover the
+                                excitement of discovering three random products, each offering delightful surprises such
+                                as
+                                mugs, chocolates, diaries, pens, mobile stands, belts, clutches, candle jars, and travel
+                                pillows. Don't hesitate - take a look at our website and social media platforms today.
+                                Embrace the thrill of our Mystery Box! Act fast before it's too late!
+                            </p>
+                        </li>
+                    </ul>
+
+                </div>
+
+                <!-- Sections for each button -->
+                <div id="products" class="section">
+                    <!-- Content for the Products section -->
+                    <p>This is the Products section.</p>
+                </div>
+                <div id="quick-reads" class="section">
+                    <!-- Content for the Quick Reads section -->
+                    <p>This is the Quick Reads section.</p>
+                </div>
+                <div id="tutorials" class="section">
+                    <!-- Content for the Tutorials section -->
+                    <p>This is the Tutorials section.</p>
+                </div>
+                <div id="new" class="section">
+                    <!-- Content for the What's New section -->
+                    <p>This is the What's New section.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+    <hr>
+
+    <!-- Footer -->
+    <footer class="text-center text-lg-start text-muted footer" style="background: url(Images/discussion.png);">
+        <!-- Section: Social media -->
+        <section class="d-flex justify-content-center justify-content-lg-between p-4 border-bottom">
+            <!-- Left -->
+
+            <!-- Left -->
+
+            <!-- Right -->
+            <div class="d-flex justify-content-center container nav-link">
+                <a href="" class="me-4 text-reset">
+                    <i class="fab fa-facebook-f ftr-icon"></i>
+                </a>
+                <a href="" class="me-4 text-reset">
+                    <i class="fab fa-twitter ftr-icon"></i>
+                </a>
+                <a href="" class="me-4 text-reset">
+                    <i class="fab fa-google ftr-icon"></i>
+                </a>
+                <a href="" class="me-4 text-reset">
+                    <i class="fab fa-instagram ftr-icon"></i>
+                </a>
+                <a href="" class="me-4 text-reset">
+                    <i class="fab fa-linkedin ftr-icon"></i>
+                </a>
+                <a href="" class="me-4 text-reset">
+                    <i class="fab fa-github ftr-icon"></i>
+                </a>
+            </div>
+            <!-- Right -->
+        </section>
+        <!-- Section: Social media -->
+
+        <!-- Section: Links  -->
+        <section class="footer pt-4 pb-5">
+            <div class="container text-center text-md-start mt-5">
+                <!-- Grid row -->
+                <div class="row mt-3">
+                    <!-- Grid column -->
+                    <div class="col-md-3 col-lg-4 col-xl-3 mx-auto mb-4">
+                        <!-- Content -->
+                        <a class="navbar-brand w-25 ms-auto" href="index.html">
+                            <img src="Images/B-Logo-White-1.png" alt="" class="img-responsive  mr-auto"
+                                style="background: none !important; max-width: 100%; min-width: 60%;">
+                        </a>
+                        <p class=" ms-0">
+                            We champion
+                            the extraordinary in every person.
+                            Our mission is not just to enhance your appearance but to empower, uplift, and celebrate the
+                            unique beauty
+                            within you. We believe that true beauty is not confined to external features; it radiates
+                            from confidence,
+                            kindness, and the authenticity that makes you, you.
+                        </p>
+                    </div>
+                    <!-- Grid column -->
+
+                    <!-- Grid column -->
+                    <div class="col-md-2 col-lg-2 col-xl-2 mx-auto mb-4">
+                        <!-- Links -->
+                        <h6 class="text-uppercase fw-bold mb-4">
+                            Products
+                        </h6>
+                        <p>
+                            <a href="#!" class="text-reset nav-link">Gluta Kojic Soap</a>
+                        </p>
+                        <p>
+                            <a href="#!" class="text-reset nav-link">Bleaching Scrub</a>
+                        </p>
+                        <p>
+                            <a href="#!" class="text-reset nav-link">Milky Coconut Moisturiser</a>
+                        </p>
+                        <p>
+                            <a href="#!" class="text-reset nav-link">SPF-80 Sunblock Lotion</a>
+                        </p>
+                    </div>
+                    <!-- Grid column -->
+
+                    <!-- Grid column -->
+                    <div class="col-md-3 col-lg-2 col-xl-2 mx-auto mb-4">
+                        <!-- Links -->
+                        <h6 class="text-uppercase fw-bold mb-4">
+                            Useful links
+                        </h6>
+                        <p>
+                            <a href="T&C.html" class="text-reset nav-link">Terms and conditions</a>
+                        </p>
+                        <p>
+                            <a href="Refund & return.html" class="text-reset nav-link">Reutrn and Refund</a>
+                        </p>
+                        <p>
+                            <a href="Shipping.html" class="text-reset nav-link">Shipping Policy</a>
+                        </p>
+                        <p>
+                            <a href="shop.html" class="text-reset nav-link">Shop Now</a>
+                        </p>
+                    </div>
+                    <!-- Grid column -->
+
+                    <!-- Grid column -->
+                    <div class="col-md-4 col-lg-3 col-xl-3 mx-auto mb-md-0 mb-4">
+                        <!-- Links -->
+                        <h6 class="text-uppercase fw-bold mb-4">Contact</h6>
+                        <p><i class="fas fa-home me-3"></i>
+                            3rd Floor Landmark Tower, South City 1, Sector 41, Gurugram, Haryana 122001</p>
+                        <p>
+                            <i class="fas fa-envelope me-3"></i>
+                            <a href="mailto:royaltiesbcosmetics@gmail.com">
+                                royaltiesbcosmetics@gmail.com
+                            </a>
+                        </p>
+                        <p><i class="fas fa-phone me-3"></i> <a href="tel:+123456789">+123456789</a></p>
+                        <!-- <p><i class="fas fa-print me-3"></i> + 01 234 567 89</p> -->
+                    </div>
+                    <!-- Grid column -->
+                </div>
+                <!-- Grid row -->
+            </div>
+        </section>
+        <!-- Section: Links  -->
+
+        <!-- Copyright -->
+        <div class="text-center copyright p-4" style="background-color: rgba(0, 0, 0, 0.05);">
+            © 2024 Copyright:
+            <a class="text-reset fw-bold" href="#" style="font-style: italic;">Beyonist</a>
+        </div>
+        <!-- Copyright -->
+    </footer>
+    <!-- Footer -->
+
+
+    <!-- chat btn -->
+    <div class="dropdown-container" id="myDropdown">
+        <a href="https://wa.link/qn5ov4">
+            <i class="fa-brands fa-whatsapp fa-2xl" style="color: #25d366; z-index: 2;"></i>
+        </a>
+        <a href="mailto:royaltiesbcosmetics@gmail.com">
+            <i class="fa-regular fa-envelope fa-xl" style="color: #f41f1f; z-index: 2;"></i>
+        </a>
+    </div>
+
+    <!-- Button to toggle the dropdown -->
+
+    <i class="fa-regular fa-message fa-2xl dropbtn" onclick="toggleDropdown()" style="color: #f5b8b8;"></i>
+
+
+
+    <!-- nav to top buttton -->
+    <button id="scrollToTopBtn" class="btn  news-btn scrol-top" onclick="scrollToTop()">
+        <i class="fa-solid fa-arrow-up"></i>
+    </button>
+
+
+
+    <!-- jquery -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js"
+        integrity="sha512-v2CJ7UaYy4JwqLDIrZUI/4hqeoQieOmAZNXBeQyjo21dadnwR+8ZaIJVT8EE2iyI61OV8e6M8PP2/4hpQINQ/g=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+
+    <!-- owl crosusel -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"
+        integrity="sha512-bPs7Ae6pVvhOSiIcyUClR7/q2OAsRiovw4vAkX+zJbw3ShAeeqezq50RIIcIURq7Oa20rW2n2q+fyXBNcU9lrw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
+    <!-- bootstrap js -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+        crossorigin="anonymous"></script>
+
+    <script>
+        // Function to show a specific section
+        function showSection(sectionId) {
+            // Hide all sections
+            var sections = document.querySelectorAll('.section');
+            sections.forEach(function (section) {
+                section.style.display = 'none';
+            });
+
+            // Show the selected section
+            var selectedSection = document.getElementById(sectionId);
+            if (selectedSection) {
+                selectedSection.style.display = 'block';
+            }
+        }
+
+        // Show the default section when the page loads
+        document.addEventListener('DOMContentLoaded', function () {
+            showSection('default');
+        });
+
+        const toggleSwitch = document.querySelector('.theme-slider input[type="checkbox"]');
+
+/* Function to change theme */
+function switchTheme(e) {
+    /* Once checkbox is checked default theme change to dark */
+    if (e.target.checked) {
+        document.documentElement.setAttribute('theme', 'dark');
+    }
+    /* While page in dark mode and checkbox is checked then theme back to change light*/
+    else {
+        document.documentElement.setAttribute('theme', 'light');
+    }
+
+    // Update checkbox state based on the theme change
+    toggleSwitch.checked = e.target.checked;
+}
+
+toggleSwitch.addEventListener('change', switchTheme, false);
+
+
+    </script>
+    <script src="script.js"></script>
+</body>
+
+</html>

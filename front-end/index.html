@@ -1,0 +1,609 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Home</title>
+  <!-- bootstrap -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous" />
+  <!-- font-awsome -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+    integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <!-- owl css -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css"
+    integrity="sha512-tS3S5qG0BlhnQROyJXvNjeEM4UpMXHrQfTGmbQ1gKmelCxlSEBUaxhRBj/EFTzpbP4RVSrpEikbmdJobCvhE3g=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <!-- owl theme css -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.css"
+    integrity="sha512-OTcub78R3msOCtY3Tc6FzeDJ8N9qvQn1Ph49ou13xgA9VsH9+LRxoFU6EqLhW4+PKRfU+/HReXmSZXHEkpYoOA=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <!-- external css -->
+  <!-- for single page -->
+  <link rel="stylesheet" href="css/home.css" />
+  <!-- common for all pages -->
+  <link rel="stylesheet" href="css/style.css" />
+  <!-- font cdn -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Raleway&family=Spectral&display=swap" rel="stylesheet">
+</head>
+
+<body>
+
+  <div id="welcomeScreen">
+    <h1>Welcome to My Website!</h1>
+    <button id="enterButton">Enter</button>
+  </div>
+
+
+
+  <div id="indexPage" style="display:none;">
+
+    <!-- hero -->
+    <div class="container-fluid head-ban vh-100 pt-1 pb-2"
+      style="background-image: url(Images/close-up-beauty-portrait-laughing-beautiful-half-naked-woman-applying-face-cream-isolated-grey-background-created-with-generative-ai-technology.jpg);">
+      <div class="container-fluid navbar-container fixed-top">
+        <div class="container pt-3">
+          <nav class="navbar navbar-expand-lg">
+            <div class="container-fluid">
+              <a class="navbar-brand w-25" href="index.html">
+                <img src="Images/B-Logo-White-1.png" alt="" class="img-responsive  "
+                  style="background: none !important; max-width: 100%; min-width: 60%;">
+              </a>
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse " id="navbarSupportedContent">
+                <ul class="navbar-nav mx-auto mb-2 mb-lg-0">
+                  <li class="nav-item ms-4">
+                    <a class="nav-link active" aria-current="page" href="about.html">About</a>
+                  </li>
+                  <li class="nav-item dropdown ms-4">
+                    <a class="nav-link dropdown-toggle" role="button" data-bs-toggle="dropdown" aria-expanded="false"
+                      href="shop.html">Shop</a>
+                    <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                      <li>
+                        <a class="dropdown-item" href="#">Mystery Box</a>
+                      </li>
+                      <li>
+                        <a class="dropdown-item" href="shop.html">Beyonist Face and Body</a>
+                      </li>
+                    </ul>
+                  </li>
+                  <li class="nav-item  ms-4">
+                    <a class="nav-link" href="blog.html" id="navbarDropdown" role="button" aria-expanded="false">
+                      Blog
+                    </a>
+
+                  </li>
+                  <li class="nav-item ms-4">
+                    <a class="nav-link" href="#">Track Order</a>
+                  </li>
+
+                  <div class="dropdown ms-2">
+                    <button class="btn btn-primary dropdown-toggle nav-link" type="button" id="dropdownMenuButton"
+                      data-bs-toggle="dropdown" aria-expanded="false"
+                      style="background: none !important ; border: none !important;">
+                      Policy
+                    </button>
+                    <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                      <li><a class="dropdown-item" href="T&C.html">Terms & Condition</a></li>
+                      <li><a class="dropdown-item" href="Refund & return.html">Return and Refund Policy</a></li>
+                      <li><a class="dropdown-item" href="Shipping.html">Shipping Policy</a></li>
+
+                    </ul>
+                  </div>
+                  <li class="nav-item ms-4">
+                    <a class="nav-link" href="career.html">
+                      Join Us
+                    </a>
+                  </li>
+                </ul>
+                <div class="dropdown">
+                  <button class="btn btn-primary dropdown-toggle" type="button" id="dropdownMenuButton"
+                    data-bs-toggle="dropdown" aria-expanded="false"
+                    style="background: none !important ; border: none !important;">
+                    <i class="fa-regular fa-user fa-2xl"></i>
+                  </button>
+                  <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                    <li><a class="dropdown-item" href="login.html">Login</a></li>
+                    <li><a class="dropdown-item" href="#">Register</a></li>
+                    <li><a class="dropdown-item d-flex" href="cart.html"><i class="fa-solid fa-cart-shopping fa-xs mt-1"
+                          style="color: #000000;"></i>
+                        <span class="ms-2">
+                          <p>
+                            Cart
+                          </p>
+                        </span>
+                      </a>
+                    </li>
+                    <li><a class="dropdown-item" href="#">SubMenu 4</a></li>
+                  </ul>
+                </div>
+              </div>
+              <header>
+                <nav>
+                  <!-- Add your custom menu here 
+                        and theme slider -->
+                  <div class="theme-switch-container">
+                    <label class="theme-slider" for="checkbox">
+                      <input type="checkbox" id="checkbox" class="d-none" />
+                      <div class="round slider"></div>
+                    </label>
+                  </div>
+                </nav>
+              </header>
+            </div>
+          </nav>
+        </div>
+      </div>
+    </div>
+
+    <!-- about -->
+    <div class="container">
+      <div class="row">
+        <div class="col-md-6">
+          <!-- <img src="Images/beyonist_logo_dark.png" alt="" class="img-responsive img-abt w-75 logo-dark" id="logoImage"> -->
+          <img src="Images/beyonist_logo.png" alt="" class="img-responsive img-abt w-75 logo-light" id="logoImage">
+        </div>
+
+        <div class="col-md-6">
+          <div class="container mt-4 abt-desc">
+
+            <h6 class="d-inline">
+              <h2 class="abt-head d-inline">
+                At Beyonist
+              </h2>
+              we champion
+              the extraordinary in every person.
+              Our mission is not just to enhance your appearance but to empower, uplift, and celebrate the unique beauty
+              within you. We believe that true beauty is not confined to external features; it radiates from confidence,
+              kindness, and the authenticity that makes you, you.
+            </h6>
+
+            </span>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="container-fluid vh-100"
+      style="background: url(https://beyonist.com/wp-content/uploads/2023/12/WhatsApp-Image-2023-11-14-at-5.53.16-PM.jpeg.webp); background-repeat: no-repeat; background-position: center;">
+
+    </div>
+    <!-- shop now section -->
+
+    <div class="container-fluid shop-cont d-flex align-items-center position-relative mt-5 pt-5 pb-5"
+      style="box-shadow: 2px 2px  10px 5px rgba(192, 180, 180, 0.8);">
+      <div class="shop-bg-grad"></div>
+      <div class="container mt-5 mb-5 pt-5 pb-5">
+        <div class="owl-carousel owl-theme">
+          <div class="item">
+            <div class="row">
+              <div class="col-md-6 d-flex justify-content-center ">
+                <div class="card d-flex justify-content-center align-items-center shop-card ">
+                  <img
+                    src="https://beyonist.com/wp-content/uploads/2023/12/Tiar-A-Hydra-Serum-C.-Image-300x300.jpg.webp"
+                    alt="" class="img-responsive  img-fluid">
+                </div>
+              </div>
+              <div class="col-md-6">
+                <div class="container  mt-3">
+                  <h2 class="mt-3">
+                    Tiara Hydra Serum 1
+                  </h2>
+                  <h6 class="mt-3">
+                    Experience the ultimate hydration with our hydra serum, a skincare elixir that quenches your skin’s
+                    luxury of a formula designed to provide deep and lasting moisture, leaving your skin feeling plump
+                    and rejuvenated
+                  </h6>
+
+                  <a href="">
+                    <button class="btn mt-5  w-25 news-btn">
+                      Shop Now
+                    </button>
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="item">
+            <div class="row">
+              <div class="col-md-6 d-flex justify-content-center ">
+                <div class="card d-flex justify-content-center align-items-center shop-card ">
+                  <img
+                    src="https://beyonist.com/wp-content/uploads/2023/12/Tiar-A-Hydra-Serum-C.-Image-300x300.jpg.webp"
+                    alt="" class="img-responsive img-fluid">
+                </div>
+              </div>
+              <div class="col-md-6">
+                <div class="container  mt-3">
+                  <h2 class="mt-3">
+                    Tiara Hydra Serum 2
+                  </h2>
+                  <h6 class="mt-3">
+                    Experience the ultimate hydration with our hydra serum, a skincare elixir that quenches your skin’s
+                    luxury of a formula designed to provide deep and lasting moisture, leaving your skin feeling plump
+                    and rejuvenated
+                  </h6>
+
+                  <a href="">
+                    <button class="btn mt-5  w-25 news-btn">
+                      Shop Now
+                    </button>
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="item">
+            <div class="row">
+              <div class="col-md-6 d-flex justify-content-center ">
+                <div class="card d-flex justify-content-center align-items-center shop-card ">
+                  <img
+                    src="https://beyonist.com/wp-content/uploads/2023/12/Tiar-A-Hydra-Serum-C.-Image-300x300.jpg.webp"
+                    alt="" class="img-responsive  img-fluid">
+                </div>
+              </div>
+              <div class="col-md-6">
+                <div class="container  mt-3">
+                  <h2 class="mt-3">
+                    Tiara Hydra Serum 3
+                  </h2>
+                  <h6 class="mt-3">
+                    Experience the ultimate hydration with our hydra serum, a skincare elixir that quenches your skin’s
+                    luxury of a formula designed to provide deep and lasting moisture, leaving your skin feeling plump
+                    and rejuvenated
+                  </h6>
+
+                  <a href="">
+                    <button class="btn mt-5  w-25 news-btn">
+                      Shop Now
+                    </button>
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- demo cont -->
+
+
+    <!-- our mission -->
+    <div class="container-fluid mission dark-mode pb-5 pt-5">
+      <div class="container">
+        <h1 class="text-center">
+          Our Mission
+          <hr>
+        </h1>
+
+        <p class="text-center mt-5">
+          In a world that often defines beauty by standards, we embrace the <strong>diversity</strong> of individuality.
+          Every shade, every
+          contour, and every unique feature tells a story of strength and resilience. We strive to create cosmetics that
+          not only accentuate your outer beauty but also resonate with the inner strength that defines you.
+          <br> <br>
+          Our products are more than just makeup; they are tools for <strong>self-expression, creativity, and
+            confidence</strong>. From
+          vibrant lip shades that speak volumes to subtle hues that whisper elegance, our cosmetics are crafted with
+          care
+          to complement the myriad facets of your personality.
+        </p>
+      </div>
+    </div>
+
+    <!-- news letter -->
+    <div class="container-fluid  pt-5 pb-5 news-ltr ">
+      <div class="container news-head ">
+        <h2 class="text-center news-head-heading text-dark">
+          SUBSCRIBE TO OUR NEWSLETTER
+        </h2>
+        <p class="text-center news-head-para">
+          and never miss any of our updates anymore
+        </p>
+      </div>
+
+      <div class="container d-flex justify-content-center news-form mt-5 mb-5">
+        <div class="form-group w-50">
+          <input type="email" class="form-control subs-input " id="animated-input"
+            placeholder="Enter your email address" required onclick="changeInputBorder()">
+        </div>
+
+        <button type="submit" class="btn ms-3  w-25 news-btn">Subscribe</button>
+        </form>
+      </div>
+    </div>
+
+    <!-- map and contact -->
+    <div class="container-fluid mt-5 mb-5 ">
+      <div class="row position-relative justify-content-around">
+        <!-- maps -->
+        <div class="col-xl-8 col-lg-6 col-md-6 col-sm-6">
+          <iframe
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3507.686568993825!2d77.0589396755943!3d28.458863291945832!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x390d19a8f1feab27%3A0x5f9d15b558db8836!2sBeyonist!5e0!3m2!1sen!2sin!4v1705127929987!5m2!1sen!2sin"
+            width="100%" height="100%" style="border:0;" allowfullscreen="" loading="lazy"
+            referrerpolicy="no-referrer-when-downgrade"></iframe>
+        </div>
+        <div class="col-xl-4 col-lg-6 col-md-6 col-sm-6 p-5">
+
+          <!-- contact form -->
+          <form class="contact-form p-1">
+            <div class="form-row d-flex flex-column align-items-center ">
+              <h2 class="text-center">
+                Let's Talk
+              </h2>
+              <div class="form-group w-75 col-md-6">
+                <input type="text" class="form-control w-100 mt-3" id="inputName" placeholder="Enter your Name">
+              </div>
+              <div class="form-group w-75 col-md-6">
+                <input type="email" class="form-control w-100 mt-3" id="inputEmail" placeholder="Enter your Email">
+              </div>
+              <div class="form-group w-75 col-md-6">
+                <input type="tel" class="form-control w-100 mt-3" id="inputName" placeholder="Enter your phone number">
+              </div>
+              <div class="form-group w-75 col-md-6">
+                <textarea class="form-control mt-3" id="additionalInfo" rows="3"
+                  placeholder="What's on your mind..?"></textarea>
+              </div>
+
+              <button type="submit" class="btn  mt-4  w-50 news-btn">Send</button>
+            </div>
+
+
+          </form>
+
+
+        </div>
+
+      </div>
+
+
+    </div>
+
+    <!-- Footer -->
+    <footer class="text-center text-lg-start text-muted footer" style="background: url(Images/discussion.png);">
+      <!-- Section: Social media -->
+      <section class="d-flex justify-content-center justify-content-lg-between p-4 border-bottom">
+        <!-- Left -->
+
+        <!-- Left -->
+
+        <!-- Right -->
+        <div class="d-flex justify-content-center container nav-link">
+          <a href="" class="me-4 text-reset">
+            <i class="fab fa-facebook-f ftr-icon"></i>
+          </a>
+          <a href="" class="me-4 text-reset">
+            <i class="fab fa-twitter ftr-icon"></i>
+          </a>
+          <a href="" class="me-4 text-reset">
+            <i class="fab fa-google ftr-icon"></i>
+          </a>
+          <a href="" class="me-4 text-reset">
+            <i class="fab fa-instagram ftr-icon"></i>
+          </a>
+          <a href="" class="me-4 text-reset">
+            <i class="fab fa-linkedin ftr-icon"></i>
+          </a>
+          <a href="" class="me-4 text-reset">
+            <i class="fab fa-github ftr-icon"></i>
+          </a>
+        </div>
+        <!-- Right -->
+      </section>
+      <!-- Section: Social media -->
+
+      <!-- Section: Links  -->
+      <section class="footer pt-4 pb-5">
+        <div class="container text-center text-md-start mt-5">
+          <!-- Grid row -->
+          <div class="row mt-3">
+            <!-- Grid column -->
+            <div class="col-md-3 col-lg-4 col-xl-3 mx-auto mb-4">
+              <!-- Content -->
+              <a class="navbar-brand w-25 ms-auto" href="index.html">
+                <img src="Images/B-Logo-White-1.png" alt="" class="img-responsive  mr-auto"
+                  style="background: none !important; max-width: 100%; min-width: 60%;">
+              </a>
+              <p class=" ms-0">
+                We champion
+                the extraordinary in every person.
+                Our mission is not just to enhance your appearance but to empower, uplift, and celebrate the unique
+                beauty
+                within you. We believe that true beauty is not confined to external features; it radiates from
+                confidence,
+                kindness, and the authenticity that makes you, you.
+              </p>
+            </div>
+            <!-- Grid column -->
+
+            <!-- Grid column -->
+            <div class="col-md-2 col-lg-2 col-xl-2 mx-auto mb-4">
+              <!-- Links -->
+              <h6 class="text-uppercase fw-bold mb-4">
+                Products
+              </h6>
+              <p>
+                <a href="#!" class="text-reset nav-link">Gluta Kojic Soap</a>
+              </p>
+              <p>
+                <a href="#!" class="text-reset nav-link">Bleaching Scrub</a>
+              </p>
+              <p>
+                <a href="#!" class="text-reset nav-link">Milky Coconut Moisturiser</a>
+              </p>
+              <p>
+                <a href="#!" class="text-reset nav-link">SPF-80 Sunblock Lotion</a>
+              </p>
+            </div>
+            <!-- Grid column -->
+
+            <!-- Grid column -->
+            <div class="col-md-3 col-lg-2 col-xl-2 mx-auto mb-4">
+              <!-- Links -->
+              <h6 class="text-uppercase fw-bold mb-4">
+                Useful links
+              </h6>
+              <p>
+                <a href="T&C.html" class="text-reset nav-link">Terms and conditions</a>
+              </p>
+              <p>
+                <a href="Refund & return.html" class="text-reset nav-link">Reutrn and Refund</a>
+              </p>
+              <p>
+                <a href="Shipping.html" class="text-reset nav-link">Shipping Policy</a>
+              </p>
+              <p>
+                <a href="shop.html" class="text-reset nav-link">Shop Now</a>
+              </p>
+            </div>
+            <!-- Grid column -->
+
+            <!-- Grid column -->
+            <div class="col-md-4 col-lg-3 col-xl-3 mx-auto mb-md-0 mb-4">
+              <!-- Links -->
+              <h6 class="text-uppercase fw-bold mb-4">Contact</h6>
+              <p><i class="fas fa-home me-3"></i>
+                3rd Floor Landmark Tower, South City 1, Sector 41, Gurugram, Haryana 122001</p>
+              <p>
+                <i class="fas fa-envelope me-3"></i>
+                <a href="mailto:royaltiesbcosmetics@gmail.com">
+                  royaltiesbcosmetics@gmail.com
+                </a>
+              </p>
+              <p><i class="fas fa-phone me-3"></i> <a href="tel:+123456789">+123456789</a></p>
+              <!-- <p><i class="fas fa-print me-3"></i> + 01 234 567 89</p> -->
+            </div>
+            <!-- Grid column -->
+          </div>
+          <!-- Grid row -->
+        </div>
+      </section>
+      <!-- Section: Links  -->
+
+      <!-- Copyright -->
+      <div class="text-center copyright p-4" style="background-color: rgba(0, 0, 0, 0.05);">
+        © 2024 Copyright:
+        <a class="text-reset fw-bold" href="#" style="font-style: italic;">Beyonist</a>
+      </div>
+      <!-- Copyright -->
+    </footer>
+    <!-- Footer -->
+
+
+    <!-- chat btn -->
+    <div class="dropdown-contai ner" id="myDropdown">
+      <a href="https://wa.link/qn5ov4">
+        <i class="fa-brands fa-whatsapp fa-2xl" style="color: #25d366; z-index: 2;"></i>
+      </a>
+      <a href="mailto:royaltiesbcosmetics@gmail.com">
+        <i class="fa-regular fa-envelope fa-xl" style="color: #f41f1f; z-index: 2;"></i>
+      </a>
+    </div>
+
+    <!-- Button to toggle the dropdown -->
+
+    <i class="fa-regular fa-message fa-2xl dropbtn" onclick="toggleDropdown()" style="color: #f5b8b8;"></i>
+
+    <!-- nav to top buttton -->
+    <button id="scrollToTopBtn" class="btn  news-btn scrol-top" onclick="scrollToTop()">
+      <i class="fa-solid fa-arrow-up"></i>
+    </button>
+  </div>
+  </div>
+
+
+  <!-- <img src="" alt="" class="img-responive img-fluid"> -->
+  <!-- cart modal -->
+  <div class="modal fade" id="exampleModalLong" tabindex="-1" role="dialog" aria-labelledby="exampleModalLongTitle"
+    aria-hidden="true">
+    <div class="modal-dialog" role="document">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" id="exampleModalLongTitle">Modal title</h5>
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+            <span aria-hidden="true">&times;</span>
+          </button>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+          <button type="button" class="btn btn-primary">Save changes</button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+  <!-- jquery -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js"
+    integrity="sha512-v2CJ7UaYy4JwqLDIrZUI/4hqeoQieOmAZNXBeQyjo21dadnwR+8ZaIJVT8EE2iyI61OV8e6M8PP2/4hpQINQ/g=="
+    crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+
+  <!-- owl crosusel -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"
+    integrity="sha512-bPs7Ae6pVvhOSiIcyUClR7/q2OAsRiovw4vAkX+zJbw3ShAeeqezq50RIIcIURq7Oa20rW2n2q+fyXBNcU9lrw=="
+    crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
+  <!-- bootstrap js -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+    crossorigin="anonymous"></script>
+
+  <!-- script -->
+  <script src="script.js"></script>
+  <script>
+    // dark mode js 
+    const toggleSwitch =
+      document.querySelector('.theme-slider input[type="checkbox"]');
+
+    /* Function to change theme */
+    function switchTheme(e) {
+
+      if (e.target.checked) {
+        document.documentElement.setAttribute('theme', 'dark');
+      }
+      else {
+        document.documentElement.setAttribute('theme', 'light');
+      }
+    }
+
+    toggleSwitch.addEventListener('change', switchTheme, false);
+    // dark mode js 
+
+
+    // home page
+    $('.owl-carousel').owlCarousel({
+      loop: true,
+      margin: 10,
+      smartSpeed: 5000,
+      nav: false,
+      dots: false,
+      autoplay: true,
+      autoplayTimeout: 5000,
+      stagepadding: 50,
+      responsive: {
+        0: {
+          items: 1
+        },
+        600: {
+          items: 1
+        },
+        1000: {
+          items: 1
+        }
+      }
+    })
+
+  </script>
+</body>
+
+</html>

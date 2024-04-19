@@ -1,0 +1,359 @@
+div,
+.card,
+td,
+td,
+th,
+tr,
+table {
+    /* border: 1px solid black; */
+}
+
+input {
+    display: block !important;
+}
+
+.bg-image-main,
+.bg-image {
+    z-index: -3;
+}
+
+
+body {
+    /* background: lightblue url("https://beyonist.com/wp-content/uploads/2024/01/pastel-pink-rough-concrete-textured-min-scaled.webp") fixed center !important; */
+}
+
+
+* {
+    font-family: 'Raleway', sans-serif;
+    font-family: 'Spectral', serif;
+    /* --abt-font: 'Cedarville Cursive', cursive; */
+    --abt-font: 'Raleway', sans-serif;
+    font-family: 'Spectral', serif;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+    font-family: 'Raleway', sans-serif;
+}
+
+p {
+    font-family: 'Spectral', serif;
+}
+
+.hero {
+    /* background: #FFE5EC !important; */
+}
+
+.currency {
+    background: transparent !important;
+}
+
+.login {
+    /* border: 1px solid #11090A; */
+    margin-right: 10px;
+}
+
+.signup {
+    margin-right: 10px;
+}
+
+.login,
+.signup {
+    text-decoration: none !important;
+}
+
+.login-btn {
+    border-right: 1px solid #11090A;
+    border-radius: 0;
+
+}
+
+/* .login-btn, .signup-btn{
+    border: 1px solid #FE828C;
+} */
+.cart-btn {
+    border: 1px solid white;
+}
+
+.cta {
+    word-spacing: 3px !important;
+    letter-spacing: 5px !important;
+}
+
+.logo-img:hover {
+    filter: brightness(17%) !important;
+}
+
+.head-1 {
+    background: #fe828c;
+}
+
+.logo {
+    border: none;
+}
+
+.navbar {
+    /* background-color: #FFE5EC !important; */
+}
+
+.nav-link {
+    color: black !important;
+    transition: transform 0.3s ease-in-out;
+}
+
+.nav-link:hover {
+    color: #7a5756 !important;
+    transform: translateY(-5px);
+    font-weight: 500;
+}
+
+.navbar-toggler-icon {
+    color: #11090A !important;
+}
+
+.shop-now-btn {
+    /* border: 1px dotted #D13C3C; */
+    background: #FE828C;
+    color: white;
+}
+
+.shop-now-btn:hover {
+    /* border: 1px solid #D13C3C; */
+    background: white;
+    color: black;
+    border: 1px solid #FE828C;
+}
+
+.banner {
+    background: url("https://images.pexels.com/photos/11423198/pexels-photo-11423198.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1");
+    height: 70vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+/* .bnr-grad {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: white; 
+    opacity: 0.5; 
+    z-index: 1;
+} */
+/* .banner-img {
+    position: absolute;
+    top: 0;
+    left: 0;
+  
+} */
+/* .content {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: black;
+    text-align: center;
+    z-index: 2;
+} */
+
+/* .contact-form{
+    position: absolute !important;
+    top: 2;
+    bottom: 0;
+    right: 0;
+    background: #fe828cb6;
+    width: 30%;
+    height: 120%;
+} */
+.scrol-top {
+    position: fixed;
+    bottom: 50px;
+    right: 20px;
+    display: none;
+    z-index: 3;
+    background: #FE828C;
+    border: none;
+    border-radius: 50%;
+
+}
+
+/* #scrollToTopBtn:hover{
+    background-color: white;
+    color: black;
+} */
+
+.modal {
+    z-index: 3;
+}
+
+.head-ban {
+    background-image: url("https://images.pexels.com/photos/3373721/pexels-photo-3373721.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.nav-link {
+    color: white !important;
+    /* font-size: 20px; */
+}
+
+.nav-link:hover {
+    color: black !important;
+}
+
+.fa-user {
+    color: white !important;
+}
+
+.fa-user:hover {
+    color: black !important;
+}
+
+.navbar-container {
+    transition: background-color 0.6s ease;
+}
+
+.navbar-container.sticky {
+    background-color: #f5b8b8;
+    /* Change to your desired background color */
+    box-shadow: 0px 2px 20px 2px rgba(78, 52, 52, 0.5);
+}
+
+.icon-container {
+    margin-left: auto;
+}
+
+.abt-cont {
+    /* Add your styles for the about section container */
+}
+
+.career-heading,
+.value-heading {
+    font-size: 80px;
+    display: inline-block;
+    font-weight: bolder;
+    font-style: normal;
+    color: #FE4F5D;
+}
+
+.dropdown:hover .dropdown-menu {
+    display: block;
+}
+
+@media only screen and (max-width: 600px) {
+    .career-heading {
+        font-size: 40px;
+    }
+}
+
+.text-reset {
+    text-decoration: none !important;
+}
+
+.footer {
+    background: #f5b8b894 !important;
+}
+
+.copyright {
+    background: #fe828c7e !important;
+    color: white;
+}
+
+.text-uppercase {
+    color: white !important;
+}
+
+.ftr-icon {
+    color: white !important;
+}
+
+.ftr-icon:hover {
+    color: #fe828c7e !important;
+}
+
+body {
+    margin: 0;
+}
+
+/* Style the button */
+.dropbtn {
+    /* background-color: #f5b8b8; */
+    color: #f5b8b8;
+    padding: 10px;
+    /* font-size: 16px; */
+    border: none;
+    cursor: pointer;
+    position: fixed;
+    bottom: 110px;
+    right: 15px;
+    z-index: 2;
+    transition: transform 0.3s ease-out;
+}
+
+.dropbtn:hover {
+    transform: translateY(-6px);
+}
+
+/* Style the dropdown container (hidden by default) */
+.dropdown-container {
+    display: none;
+    position: fixed;
+    bottom: 160px;
+    right: 15px;
+    background-color: #f9f9f9;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+    padding: 10px;
+    border-radius: 50px;
+}
+
+/* Style the links inside the dropdown */
+.dropdown-container a {
+    display: block;
+    color: black;
+    padding: 10px;
+    text-decoration: none;
+}
+
+/* Change color on hover */
+.dropdown-container a:hover {
+    /* background-color: #ddd; */
+}
+
+/* Show the dropdown menu when the button is clicked */
+.show {
+    display: block;
+}
+
+#welcomeScreen {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: rgba(0, 0, 0, 0.5);
+    padding: 20px;
+    border-radius: 5px;
+    color: white;
+    opacity: 0;
+}
+
+#welcomeScreen h1 {
+    margin-top: 0;
+}
+
+/* @keyframes fade-in {
+	0% { opacity: 9; }
+	100% { opacity: 1; }
+} */
+
+.btn-shadow {
+    border: 1px solid rgb(255, 187, 0);
+   
+    border-radius: 20px;
+}

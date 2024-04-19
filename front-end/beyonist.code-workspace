@@ -1,0 +1,22 @@
+{
+	"folders": [
+		{
+			"path": "../../.."
+		},
+		{
+			"path": "../../../../careers-page"
+		},
+		{
+			"path": "../../../../blogpagemain"
+		},
+		{
+			"path": "../../../../blogpagededicated"
+		},
+		{
+			"path": "../../../../box"
+		}
+	],
+	"settings": {
+		"liveServer.settings.multiRootWorkspaceName": "box"
+	}
+}

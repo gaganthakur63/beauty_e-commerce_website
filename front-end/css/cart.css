@@ -1,0 +1,33 @@
+.cart-item-link {
+    color: black !important;
+    transition: transform 0.3s ease-in-out;
+    text-decoration: none;
+}
+
+.cart-item-link:hover {
+    color: #7a5756 !important;
+    transform: translateY(-5px);
+    font-weight: 500;
+}
+
+.qty-input {
+    width: 50px;
+    text-align: center;
+}
+
+.left {
+    float: left;
+    margin-right: 5px;
+}
+.payment-btn{
+    border-radius: 0 !important;
+    background-color: #fe828c;
+    border: none !important;
+}
+.crt-ttl{
+    background-color: rgba(128, 128, 128, 0.048);
+}
+.payment-btn:hover{
+    background-color: white !important;
+    color: black !important;
+}

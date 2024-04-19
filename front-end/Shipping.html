@@ -1,0 +1,575 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shipping Policy</title>
+
+    <!-- bootstrap -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous" />
+    <!-- font-awsome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+        integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <!-- owl css -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css"
+        integrity="sha512-tS3S5qG0BlhnQROyJXvNjeEM4UpMXHrQfTGmbQ1gKmelCxlSEBUaxhRBj/EFTzpbP4RVSrpEikbmdJobCvhE3g=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <!-- owl theme css -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.css"
+        integrity="sha512-OTcub78R3msOCtY3Tc6FzeDJ8N9qvQn1Ph49ou13xgA9VsH9+LRxoFU6EqLhW4+PKRfU+/HReXmSZXHEkpYoOA=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <!-- external css -->
+    <!-- for single page -->
+    <link rel="stylesheet" href="css/about.css" />
+    <!-- common for all pages -->
+    <link rel="stylesheet" href="css/style.css" />
+    <!-- font cdn -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Raleway&family=Spectral&display=swap" rel="stylesheet">
+</head>
+<style>
+    :root { 
+	--primary-color: #000000; 
+	--secondary-color: #070707; 
+	--text-color: #424242; 
+	--background-color: rgb(0, 0, 0)a2a; 
+	--heading-color: #292922; 
+} 
+
+/* Dark theme */
+[theme="dark"] { 
+	--primary-color: #000000; 
+	--secondary-color: #ffffff; 
+	--text-color: #ffffff; 
+	--background-color: #131320; 
+	--heading-color: #818cab; 
+} 
+
+/* Adding css variable in our webpage */
+body {  
+	background-color: var(--background-color); 
+	color: var(--text-color); 
+}
+h1, h6 { 
+	color: var(--secondary-color); 
+} 
+
+p { 
+	color: var(--primary-color); 
+} 
+
+/* Slider styling */
+.theme-switch-container { 
+	display: flex; 
+	align-items: center; 
+} 
+
+.theme-slider { 
+	display: inline-block; 
+	height: 34px; 
+	position: relative; 
+	width: 60px; 
+} 
+
+.slider { 
+	background-color: #868686; 
+	bottom: 0; 
+	cursor: pointer; 
+	left: 0; 
+	position: absolute; 
+	right: 0; 
+	top: 0; 
+	transition: .4s; 
+} 
+
+.slider:before { 
+	background-color: #fff; 
+	bottom: 4px; 
+	content: ""; 
+	height: 26px; 
+	left: 4px; 
+	position: absolute; 
+	transition: .4s; 
+	width: 26px; 
+} 
+
+input:checked+.slider { 
+	background-color: #FE828C; 
+} 
+
+input:checked+.slider:before { 
+	transform: translateX(26px); 
+} 
+
+.slider.round { 
+	border-radius: 34px; 
+} 
+
+.slider.round:before { 
+	border-radius: 50%; 
+}
+</style>
+
+<body>
+    <!-- hero -->
+    <div class="container-fluid head-ban vh-100 pt-1 pb-2"
+        style="background-image: url(Images/close-up-beauty-portrait-laughing-beautiful-half-naked-woman-applying-face-cream-isolated-grey-background-created-with-generative-ai-technology.jpg);">
+        <div class="container-fluid navbar-container fixed-top">
+            <div class="container pt-3">
+                <nav class="navbar navbar-expand-lg ">
+                    <div class="container-fluid">
+                        <a class="navbar-brand w-25" href="index.html">
+                            <img src="Images/B-Logo-White-1.png" alt="" class="img-responsive  "
+                                style="background: none !important; max-width: 100%; min-width: 60%;">
+                        </a>
+                        <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                            data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                            aria-expanded="false" aria-label="Toggle navigation">
+                            <span class="navbar-toggler-icon"></span>
+                        </button>
+                        <div class="collapse navbar-collapse " id="navbarSupportedContent">
+                            <ul class="navbar-nav mx-auto mb-2 mb-lg-0">
+                                <li class="nav-item ms-4">
+                                    <a class="nav-link active" aria-current="page" href="about.html">About</a>
+                                </li>
+                                <li class="nav-item dropdown ms-4">
+                                    <a class="nav-link dropdown-toggle" role="button" data-bs-toggle="dropdown"
+                                        aria-expanded="false" href="shop.html">Shop</a>
+                                    <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                        <li><a class="dropdown-item" href="#">Mystery Box</a></li>
+                                        <li>
+                                            <a class="dropdown-item" href="shop.html">Beyonist Face and Body</a>
+                                        </li>
+                                    </ul>
+                                </li>
+                                <li class="nav-item  ms-4">
+                                    <a class="nav-link" href="blog.html" id="navbarDropdown" role="button"
+                                        aria-expanded="false">
+                                        Blog
+                                    </a>
+
+                                </li>
+                                <li class="nav-item ms-4">
+                                    <a class="nav-link" href="#">Track Order</a>
+                                </li>
+
+                                <div class="dropdown ms-2">
+                                    <button class="btn btn-primary dropdown-toggle nav-link" type="button"
+                                        id="dropdownMenuButton" data-bs-toggle="dropdown" aria-expanded="false"
+                                        style="background: none !important ; border: none !important;">
+                                        Policy
+                                    </button>
+                                    <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                                        <li><a class="dropdown-item" href="T&C.html">Terms & Condition</a></li>
+                                        <li><a class="dropdown-item" href="Refund & return.html">Return and Refund
+                                                Policy</a></li>
+                                        <li><a class="dropdown-item" href="Shipping.html">Shipping Policy</a></li>
+
+                                    </ul>
+                                </div>
+                                <li class="nav-item ms-4">
+                                    <a class="nav-link" href="career.html">
+                                        Join Us
+                                    </a>
+                                </li>
+                            </ul>
+                            <div class="dropdown">
+                                <button class="btn btn-primary dropdown-toggle" type="button" id="dropdownMenuButton"
+                                    data-bs-toggle="dropdown" aria-expanded="false"
+                                    style="background: none !important ; border: none !important;">
+                                    <i class="fa-regular fa-user fa-2xl"></i>
+                                </button>
+                                <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                                    <li><a class="dropdown-item" href="login.html">Login</a></li>
+                                    <li><a class="dropdown-item" href="#">Register</a></li>
+                                    <li><a class="dropdown-item d-flex" href="#"><i
+                                                class="fa-solid fa-cart-shopping fa-xs mt-1"
+                                                style="color: #000000;"></i>
+                                            <span class="ms-2">
+                                                <p>
+                                                    Cart
+                                                </p>
+                                            </span>
+                                        </a></li>
+                                    <li><a class="dropdown-item" href="#">SubMenu 4</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                        <header>
+                            <nav>
+                                <!-- Add your custom menu here 
+                                    and theme slider -->
+                                <div class="theme-switch-container">
+                                    <label class="theme-slider" for="checkbox">
+                                        <input type="checkbox" id="checkbox" class="d-none" />
+                                        <div class="round slider"></div>
+                                    </label>
+                                </div>
+                            </nav>
+                        </header>
+                    </div>
+                </nav>
+            </div>
+        </div>
+    </div>
+    <!-- content of refund and return policy -->
+    <div class="container pt-5 mt-5">
+        <h1 class="text-center">
+            Shipping Policy
+        </h1>
+
+        <h6>
+            <strong>revised on 22/01/2024</strong>
+        </h6>
+
+        <h5 class="text-center mt-5">
+            <strong>
+                Please read the following conditions carefully before accepting them
+            </strong>
+        </h5>
+
+        <div class="container mt-4 pt-5">
+            <div class="row">
+                <!-- Shipping methods-->
+                <div class="col-md-6 mt-3">
+                    <h5>
+                        <strong>1. Shipping Methods</strong>
+                    </h5>
+                    <p>
+                        At Beyonist, we offer multiple shipping options to ensure that your orders are delivered
+                        conveniently and efficiently. Our primary shipping methods include:
+                    <ul>
+                        <li>
+                            <strong>
+                                Standard Shipping
+                            </strong>: This method typically takes 7 Days business days for delivery within India.
+                        </li>
+                        <li>
+                            <strong>
+                                Express Shipping
+                            </strong>: For those who need their orders quickly, we offer express shipping,
+                            which generally takes 5 Days business days for delivery within India.
+                        </li>
+                        <li>
+                            <strong>
+                                International Shipping
+                            </strong>: We also provide international shipping options for customers
+                            outside India. Shipping times may vary depending on the destination.
+                        </li>
+                    </ul>
+
+                    </p>
+                </div>
+                <!-- shipping cost -->
+                <div class="col-md-6 mt-3">
+                    <h5>
+                        <strong>2. Shipping Cost</strong>
+                    </h5>
+                    <p>
+                        Shipping costs may vary based on the shipping method selected, the size and weight of your
+                        order, and the destination. We offer free standard shipping on orders above a certain amount.
+                        Please refer to our website or contact our customer support team for specific shipping cost
+                        details.
+                    </p>
+                </div>
+                <!-- order process -->
+                <div class="col-md-6 mt-3">
+                    <h5>
+                        <strong>3. Order Process Time</strong>
+                    </h5>
+                    <p>
+                        We strive to process and ship orders as quickly as possible. Order processing typically takes
+                        2 business days. You will receive an order confirmation email with tracking information once
+                        your order is dispatched.
+                    </p>
+                </div>
+                <!-- Tracking -->
+                <div class="col-md-6 mt-3">
+                    <h5>
+                        <strong>4. Tracking</strong>
+                    </h5>
+                    <p>
+                        Once your order has been shipped, you will receive a tracking number via email. You can use this
+                        tracking number to monitor the progress of your delivery on our website or through the courier's
+                        tracking service.
+                    </p>
+                </div>
+                <!-- Delivery  time-->
+                <div class="col-md-6 mt-3">
+                    <h5>
+                        <strong>5. Delivery Time </strong>
+                    </h5>
+                    <p>
+                        The estimated delivery times are provided as a guideline and may be subject to change based on
+                        various factors, including external events, holidays, and shipping service availability. While
+                        we make every effort to deliver within the estimated time frame, we cannot guarantee precise
+                        delivery dates.
+                    </p>
+                </div>
+                <!-- Order status Update-->
+                <div class="col-md-6 mt-3">
+                    <h5>
+                        <strong>6. Order Status Update</strong>
+                    </h5>
+                    <p>
+                        We will keep you informed about the status of your order via email notifications. These updates
+                        will include order confirmation, order processing, and tracking information. You can also check
+                        the status of your order by logging into your account on our website.
+                    </p>
+                </div>
+                <!-- Address Information-->
+                <div class="col-md-6 mt-3">
+                    <h5>
+                        <strong>7. Address Information</strong>
+                    </h5>
+                    <p>
+                        Please ensure that you provide accurate and complete shipping information during the checkout
+                        process. Inaccurate or incomplete addresses may lead to delays or delivery issues. Beyonist is
+                        not responsible for such occurrences.
+                    </p>
+                </div>
+                <!-- contact us -->
+                <div class="col-md-6 mt-3">
+                    <h5>
+                        <strong>8. Contact Us</strong>
+                    </h5>
+                    <p>
+                        If you have any questions or concerns about our refund and return policy, please don't hesitate
+                        to contact us at <strong>
+                            royaltiesbcosmetics@gmail.com
+                        </strong> or
+                        <strong>
+                            91+ 8527999563
+                        </strong>.
+                        Beyonist reserves the right to amend or update this refund and return policy at any time. Please
+                        check our website for the most current version.
+                        <br><br><br>
+
+
+                    </p>
+                </div>
+                <!-- addresss -->
+                <div class="col-md-12 mt-3 text-center">
+                    <h5>
+                        <strong>Office Address</strong>
+                    </h5>
+                    <p>
+                        Address: H.No.31, Ground Floor, Sector-46, Gurugram, Haryana (india) <br>
+                        Gurugram , Haryana, Pin-122003 <br>
+                        Email Address :- royaltiesbcosmetics@gmail.com <br>
+                        Phone Number:- 8527999563 <br>
+                        Website :- www.beyonist.com <br>
+                        <br><br><br>
+
+
+                    </p>
+                </div>
+            </div>
+        </div>
+
+
+    </div>
+    <div class="container text-center">
+        <h3>
+            <strong>
+                Thank you for shopping with us!
+            </strong>
+        </h3>
+    </div>
+
+    
+  <!-- Footer -->
+  <footer class="text-center text-lg-start text-muted footer" style="background: url(Images/discussion.png);">
+    <!-- Section: Social media -->
+    <section class="d-flex justify-content-center justify-content-lg-between p-4 border-bottom">
+      <!-- Left -->
+
+      <!-- Left -->
+
+      <!-- Right -->
+      <div class="d-flex justify-content-center container nav-link">
+        <a href="" class="me-4 text-reset">
+          <i class="fab fa-facebook-f ftr-icon"></i>
+        </a>
+        <a href="" class="me-4 text-reset">
+          <i class="fab fa-twitter ftr-icon"></i>
+        </a>
+        <a href="" class="me-4 text-reset">
+          <i class="fab fa-google ftr-icon"></i>
+        </a>
+        <a href="" class="me-4 text-reset">
+          <i class="fab fa-instagram ftr-icon"></i>
+        </a>
+        <a href="" class="me-4 text-reset">
+          <i class="fab fa-linkedin ftr-icon"></i>
+        </a>
+        <a href="" class="me-4 text-reset">
+          <i class="fab fa-github ftr-icon"></i>
+        </a>
+      </div>
+      <!-- Right -->
+    </section>
+    <!-- Section: Social media -->
+
+    <!-- Section: Links  -->
+    <section class="footer pt-4 pb-5">
+      <div class="container text-center text-md-start mt-5">
+        <!-- Grid row -->
+        <div class="row mt-3">
+          <!-- Grid column -->
+          <div class="col-md-3 col-lg-4 col-xl-3 mx-auto mb-4">
+            <!-- Content -->
+            <a class="navbar-brand w-25 ms-auto" href="index.html">
+              <img src="Images/B-Logo-White-1.png" alt="" class="img-responsive  mr-auto"
+                style="background: none !important; max-width: 100%; min-width: 60%;">
+            </a>
+            <p class=" ms-0">
+              We champion
+              the extraordinary in every person.
+              Our mission is not just to enhance your appearance but to empower, uplift, and celebrate the unique beauty
+              within you. We believe that true beauty is not confined to external features; it radiates from confidence,
+              kindness, and the authenticity that makes you, you.
+            </p>
+          </div>
+          <!-- Grid column -->
+
+          <!-- Grid column -->
+          <div class="col-md-2 col-lg-2 col-xl-2 mx-auto mb-4">
+            <!-- Links -->
+            <h6 class="text-uppercase fw-bold mb-4">
+              Products
+            </h6>
+            <p>
+              <a href="#!" class="text-reset nav-link">Gluta Kojic Soap</a>
+            </p>
+            <p>
+              <a href="#!" class="text-reset nav-link">Bleaching Scrub</a>
+            </p>
+            <p>
+              <a href="#!" class="text-reset nav-link">Milky Coconut Moisturiser</a>
+            </p>
+            <p>
+              <a href="#!" class="text-reset nav-link">SPF-80 Sunblock Lotion</a>
+            </p>
+          </div>
+          <!-- Grid column -->
+
+          <!-- Grid column -->
+          <div class="col-md-3 col-lg-2 col-xl-2 mx-auto mb-4">
+            <!-- Links -->
+            <h6 class="text-uppercase fw-bold mb-4">
+              Useful links
+            </h6>
+            <p>
+              <a href="T&C.html" class="text-reset nav-link">Terms and conditions</a>
+            </p>
+            <p>
+              <a href="Refund & return.html" class="text-reset nav-link">Reutrn and Refund</a>
+            </p>
+            <p>
+              <a href="Shipping.html" class="text-reset nav-link">Shipping Policy</a>
+            </p>
+            <p>
+              <a href="shop.html" class="text-reset nav-link">Shop Now</a>
+            </p>
+          </div>
+          <!-- Grid column -->
+
+          <!-- Grid column -->
+          <div class="col-md-4 col-lg-3 col-xl-3 mx-auto mb-md-0 mb-4">
+            <!-- Links -->
+            <h6 class="text-uppercase fw-bold mb-4">Contact</h6>
+            <p><i class="fas fa-home me-3"></i>
+              3rd Floor Landmark Tower, South City 1, Sector 41, Gurugram, Haryana 122001</p>
+            <p>
+              <i class="fas fa-envelope me-3"></i>
+              <a href="mailto:royaltiesbcosmetics@gmail.com">
+                royaltiesbcosmetics@gmail.com
+              </a>
+            </p>
+            <p><i class="fas fa-phone me-3"></i> <a href="tel:+123456789">+123456789</a></p>
+            <!-- <p><i class="fas fa-print me-3"></i> + 01 234 567 89</p> -->
+          </div>
+          <!-- Grid column -->
+        </div>
+        <!-- Grid row -->
+      </div>
+    </section>
+    <!-- Section: Links  -->
+
+    <!-- Copyright -->
+    <div class="text-center copyright p-4" style="background-color: rgba(0, 0, 0, 0.05);">
+      © 2024 Copyright:
+      <a class="text-reset fw-bold" href="#" style="font-style: italic;">Beyonist</a>
+    </div>
+    <!-- Copyright -->
+  </footer>
+  <!-- Footer -->
+    
+    <!-- chat btn -->
+    <div class="dropdown-container" id="myDropdown">
+        <a href="https://wa.link/qn5ov4">
+            <i class="fa-brands fa-whatsapp fa-2xl" style="color: #25d366; z-index: 2;"></i>
+        </a>
+        <a href="mailto:royaltiesbcosmetics@gmail.com">
+            <i class="fa-regular fa-envelope fa-xl" style="color: #f41f1f; z-index: 2;"></i>
+        </a>
+    </div>
+
+    <!-- Button to toggle the dropdown -->
+
+    <i class="fa-regular fa-message fa-2xl dropbtn" onclick="toggleDropdown()" style="color: #f5b8b8;"></i>
+
+
+    <!-- nav to top buttton -->
+    <button id="scrollToTopBtn" class="btn  news-btn scrol-top" onclick="scrollToTop()">
+        <i class="fa-solid fa-arrow-up"></i>
+    </button>
+
+
+
+
+
+    <!-- jquery -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js"
+        integrity="sha512-v2CJ7UaYy4JwqLDIrZUI/4hqeoQieOmAZNXBeQyjo21dadnwR+8ZaIJVT8EE2iyI61OV8e6M8PP2/4hpQINQ/g=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+
+    <!-- owl crosusel -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"
+        integrity="sha512-bPs7Ae6pVvhOSiIcyUClR7/q2OAsRiovw4vAkX+zJbw3ShAeeqezq50RIIcIURq7Oa20rW2n2q+fyXBNcU9lrw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
+    <!-- bootstrap js -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+        crossorigin="anonymous"></script>
+        <script>
+              // dark mode js 
+        const toggleSwitch =
+            document.querySelector('.theme-slider input[type="checkbox"]');
+
+        /* Function to change theme */
+        function switchTheme(e) {
+
+            if (e.target.checked) {
+                document.documentElement.setAttribute('theme', 'dark');
+            }
+            else {
+                document.documentElement.setAttribute('theme', 'light');
+            }
+        }
+
+        toggleSwitch.addEventListener('change', switchTheme, false);
+        // dark mode js 
+        </script>
+
+    <script src="script.js"></script>
+</body>
+
+</html>

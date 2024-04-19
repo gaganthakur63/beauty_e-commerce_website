@@ -1,0 +1,207 @@
+.cta-banner {
+    background: url("https://royaltiesbeautycorp.com/wp-content/uploads/2024/01/DSC00148-copy-1-scaled.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    max-height: 100vh !important;
+}
+
+a {
+    text-decoration: none;
+}
+
+.values {
+    /* box-shadow: 20px -2px 10px -10px rgba(192, 180, 180, 0.8); */
+    max-height: 100vh !important;
+    min-height: 80vh !important;
+}
+
+.career-abt {
+    /* box-shadow: 0px 0px 15px 8px rgba(192, 180, 180, 0.8); */
+}
+
+/* .join-us{
+    color: black;
+    transition: color 0.3s ease;
+}
+.join-us:hover{
+    color: #fe828c ; 
+    background: linear-gradient(to right, #000 50%, #fe828c 50%);
+    background-size: 200% 100%; 
+    transition: background-position 0.3s ease; 
+} */
+
+.join-img {
+    box-shadow: 0px 0px 15px 8px rgba(192, 180, 180, 0.8);
+}
+
+/* .career-heading {
+    font-size: 80px;
+
+} */
+
+.value-heading {
+    font-family: 'Raleway', sans-serif !important;
+}
+
+.value-card {
+    border-radius: 0;
+
+}
+
+.value-card:hover {
+    box-shadow: 0px 0px 15px 8px rgba(192, 180, 180, 0.8);
+}
+
+.value-heading {
+    font-size: 60px !important;
+}
+
+.black-bg {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 2 !important;
+    background: rgba(0, 0, 0, 0.6);
+}
+
+.value-txt {
+    color: rgb(255, 255, 255);
+    z-index: 2;
+}
+
+.image-preview-modal {
+    display: none;
+    position: fixed;
+    z-index: 1;
+    padding: 20px;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(207, 59, 59, 0.7);
+}
+
+.modal-content {
+    max-width: 100%;
+    max-height: 100%;
+    margin: auto;
+    display: block;
+}
+
+.close-modal {
+    color: #fff;
+    font-size: 30px;
+    font-weight: bold;
+    position: absolute;
+    top: 10px;
+    right: 20px;
+    cursor: pointer;
+}
+
+.benifits {
+    background-color: rgb(114, 30, 30) !important;
+
+}
+
+.perks-container {
+    display: flex;
+    align-items: start;
+}
+
+.perks-icon {
+    margin-right: 10px;
+    /* Adjust the margin as needed */
+}
+
+.perks-content {
+    flex-grow: 1;
+}
+
+.perks-content p {
+    color: #fff;
+}
+:root { 
+	--primary-color: #000000; 
+	--secondary-color: #070707; 
+	--text-color: #424242; 
+	--background-color: #fff; 
+	--heading-color: #292922; 
+} 
+
+/* Dark theme */
+[theme="dark"] { 
+	--primary-color: #000000; 
+	--secondary-color: #ffffff; 
+	--text-color: #020202; 
+	--background-color: #161625; 
+	--heading-color: #818cab; 
+} 
+ p.text-start{
+    color: var(--primary-color);
+}
+/* Adding css variable in our webpage */
+body { 
+	background-color: var(--background-color); 
+	color: var(--text-color); 
+} 
+
+strong, h1 { 
+	color: var(--secondary-color); 
+} 
+
+p.text-center { 
+	color: var(--primary-color); 
+}
+/* Slider styling */
+.theme-switch-container { 
+	display: flex; 
+	align-items: center; 
+} 
+
+.theme-slider { 
+	display: inline-block; 
+	height: 34px; 
+	position: relative; 
+	width: 60px; 
+} 
+
+.slider { 
+	background-color: #868686; 
+	bottom: 0; 
+	cursor: pointer; 
+	left: 0; 
+	position: absolute; 
+	right: 0; 
+	top: 0; 
+	transition: .4s; 
+} 
+
+.slider:before { 
+	background-color: #fff; 
+	bottom: 4px; 
+	content: ""; 
+	height: 26px; 
+	left: 4px; 
+	position: absolute; 
+	transition: .4s; 
+	width: 26px; 
+} 
+
+input:checked+.slider { 
+	background-color: #FE828C; 
+} 
+
+input:checked+.slider:before { 
+	transform: translateX(26px); 
+} 
+
+.slider.round { 
+	border-radius: 34px; 
+} 
+
+.slider.round:before { 
+	border-radius: 50%; 
+}

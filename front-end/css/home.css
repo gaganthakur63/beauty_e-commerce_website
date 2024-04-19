@@ -1,0 +1,184 @@
+.news-ltr {
+    background: #FFE5EC;
+}
+
+.news-head-heading {
+    word-spacing: 15px;
+    letter-spacing: 7px;
+}
+
+.news-head-para {
+    word-spacing: 5px;
+    letter-spacing: 2px;
+}
+/* 
+.subs-input {
+    border: 1px solid black !important;
+} */
+.abt-cont{
+    height: 40vh !important;
+}
+.news-btn {
+    border-radius: 0;
+    background: #205e86;
+    color: white;
+}
+.bg-2{
+    /* background-image: url("Images/pastel-pink-rough-concrete-textured-min.jpg"); */
+    height: 50vh;
+    /* border: 1px solid red; */
+}
+
+.news-btn:hover {
+    border: 1px solid #FE828C;
+    background: white;
+    color: black;
+}
+
+.abt-img {
+    border: none !important;
+}
+
+.abt-head {
+    font-family: 'Cedarville Cursive', cursive !important;
+    color: rgb(254, 130, 140) !important;
+}
+
+.shop-cont {
+    /* background-image: url("https://xtansunless.com/cdn/shop/t/7/assets/shopify-banners11-1666585652874.png?v=1666585651"); */
+    background-repeat: none;
+    height: 70vh;
+    box-shadow: 0px 5px 10px 1px rgba(192, 180, 180, 0.1);
+    /* border: 1px solid red; */
+}
+
+.shop-bg-grad {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(254, 130, 140,0.5);
+    z-index: 1;
+}
+
+.shop-card {
+    background: transparent;
+    border: none;
+}
+.mission{
+    box-shadow: 0px -2px  10px 5px rgba(192, 180, 180, 0.8);
+    background: white;
+}
+/* .img-abt{
+    background: none !important;
+} */
+
+/* Default light theme */
+:root { 
+	--primary-color: #000000; 
+	--secondary-color: #070707; 
+	--text-color: #424242; 
+	--background-color: #fff; 
+	--heading-color: #292922; 
+} 
+
+/* Dark theme */
+[theme="dark"] { 
+	--primary-color: #000000; 
+	--secondary-color: #000000; 
+	--text-color: #ffffff; 
+	--background-color: #161625; 
+	--heading-color: #818cab; 
+} 
+.container-fluid{
+    color: var(--secondary-color);
+}
+/* Adding css variable in our webpage */
+body { 
+	background-color: var(--background-color); 
+	color: var(--text-color); 
+} 
+
+h2, h6 { 
+	color: var(--text-color); 
+} 
+h1{
+    color: var(--secondary-color);
+}
+p { 
+	color: var(--primary-color); 
+}
+
+.dark-mode {
+	background-color: var(--background-color); /* Set the background color */
+	color: var(--text-color); /* Set the text color */
+  }
+  
+  .dark-mode h1 {
+	color: var(--text-color); /* Set the heading color */
+  }
+  
+  .dark-mode p {
+	color: var(--text-color); /* Set the paragraph text color */
+  }
+  .dark-mode .image-container {
+	background-image: url(Images/lightbeyonist.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 100%;
+    height: 100%;
+}
+
+  
+/* Slider styling */
+.theme-switch-container { 
+	display: flex; 
+	align-items: center; 
+} 
+
+.theme-slider { 
+	display: inline-block; 
+	height: 34px; 
+	position: relative; 
+	width: 60px; 
+} 
+
+.slider { 
+	background-color: #868686; 
+	bottom: 0; 
+	cursor: pointer; 
+	left: 0; 
+	position: absolute; 
+	right: 0; 
+	top: 0; 
+	transition: .4s; 
+} 
+
+.slider:before { 
+	background-color: #fff; 
+	bottom: 4px; 
+	content: ""; 
+	height: 26px; 
+	left: 4px; 
+	position: absolute; 
+	transition: .4s; 
+	width: 26px; 
+} 
+
+input:checked+.slider { 
+	background-color: #FE828C; 
+} 
+
+input:checked+.slider:before { 
+	transform: translateX(26px); 
+} 
+
+.slider.round { 
+	border-radius: 34px; 
+} 
+
+.slider.round:before { 
+	border-radius: 50%; 
+}

@@ -1,0 +1,55 @@
+.prod-bnft-1 {
+    background-color: #fe828c77;
+    color: white;
+    /* padding-top: 10px; */
+}
+
+.prod-bnft-2 {
+    background-color: #fe828cb7;
+    color: white;
+    /* padding-top: 10px; */
+}
+
+.prod-bnft-3 {
+    background-color: #fe828c;
+    color: white;
+    /* padding-top: 10px; */
+}
+
+.rating {
+    display: inline-block;
+    font-size: 0;
+}
+
+.star {
+    display: inline-block;
+    width: 16px;
+    height: 16px;
+    background-image: url('data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 17.27L18.18 21l-1.64-7.03L22 9.24l-7.19-.61L12 2L9.19.61L2 9.24l5.46 4.73L5.82 21z"/></svg>');
+    background-size: 16px 16px;
+    background-repeat: no-repeat;
+}
+
+.yellow {
+    /* background-color: #ffeb3b; */
+}
+.buy-now-btn{
+    background-color: #fe828c ;
+    color: white;
+    border: none !important;
+}
+.buy-now-btn:hover{
+    background-color: white;
+    color: black;
+    /* border: 1px solid black !important; */
+}
+.add-cart-btn{
+    background-color: #f5b8b8;
+    color: white;
+    border: none !important;
+}
+.add-cart-btn:hover{
+    background-color: white;
+    color: black;
+    /* border: 1px solid black !important; */
+}

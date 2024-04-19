@@ -1,0 +1,248 @@
+.card-container {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 100vh;
+    overflow: hidden;
+}
+
+.banner {
+    background: url("https://images.pexels.com/photos/4040655/pexels-photo-4040655.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1") !important;
+    background-repeat: no-repeat !important;
+    background-size: cover !important;
+    background-position: fit !important;
+}
+
+.card {
+    border: none;
+}
+
+.value-card:hover {
+    box-shadow: 0px 5px 10px 1px rgba(192, 180, 180, 0.8);
+    /* border: none ; */
+}
+
+.value-card-img:hover {
+    border: 1px solid rgba(192, 180, 180, 0.8);
+    box-shadow: 0px 10px 20px 5px rgba(192, 180, 180, 0.8);
+}
+
+.slide-from-left {
+    transform: translateX(-100%);
+}
+
+.slide-from-right {
+    transform: translateX(100%);
+}
+
+/* Add animations on scroll */
+.slide-in {
+    opacity: 1;
+    transform: translateX(0);
+}
+.testimonial{
+position: relative;
+}
+.pink-strip-1{
+    position: absolute;
+    background-color: rgb(245, 184, 184) ;
+    height: 100%;
+    width: 1%;
+    top: 0;
+    left: 50px;
+    /* z-index: 2; */
+}
+.pink-strip-2{
+    position: absolute;
+    background-color: rgb(245, 184, 184) ;
+    height: 70%;
+    width: 1%;
+    top: 0;
+    left: 110px;
+    /* z-index: 2; */
+}
+.testimonial-card {
+    position: relative;
+}
+
+.test-human-img {
+    top: 110px;
+    left: 100px;
+    position: absolute;
+    border-radius: 50%;
+    width: 60px !important;
+    height: 60px !important;
+    z-index: 2 !important;
+   
+}
+.test-prod-img{
+    top: 10px;
+    left: 10px;
+    position: absolute;
+    border-radius: 50%;
+    width: 150px !important;
+    width: 150px !important;
+}
+.test-cont{
+    z-index: 3 !important;
+    height: 40vh !important;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.main-prod{
+    position: relative;
+    background-image: url("Images/box-top-pattern\ \(1\).jpg");
+}
+.bg-image{
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    background: rgb(245, 184, 184);
+    /* background-size: cover; */
+    z-index: 1;
+}
+.main-prod-text{
+    /* background-color: red; */
+    z-index: 4 !important;
+    /* color: white; */
+}
+/* .test-bg-grad{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(190, 164, 189, 0.158);
+    z-index: 1;
+} */
+
+.image-card {
+    position: relative;
+    overflow: hidden;
+    width: 300px; /* Adjust the card width as needed */
+    height: 200px; /* Adjust the card height as needed */
+    margin: 20px;
+    border-radius: 100px;
+}
+
+.image-card img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient( rgba(240, 121, 121, 0.2) 20%, rgb(230, 126, 126) 100%);
+    opacity: 0;
+    transition: opacity 0.3s;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.overlay h3 {
+    color: #fff;
+    margin: 0;
+}
+
+.image-card:hover .overlay {
+    opacity: 1;
+    cursor: pointer;
+}
+
+/* Default light theme */
+:root { 
+	--primary-color: #000000; 
+	--secondary-color: #070707; 
+	--text-color: #424242; 
+	--background-color: #fff; 
+	--heading-color: #292922; 
+} 
+
+/* Dark theme */
+[theme="dark"] { 
+	--primary-color: #000000; 
+	--secondary-color: #ffffff; 
+	--text-color: #020202; 
+	--background-color: #161625; 
+	--heading-color: #818cab; 
+} 
+.container p{
+    color: var(--secondary-color);
+}
+
+/* Adding css variable in our webpage */
+body { 
+	background-color: var(--background-color); 
+	color: var(--text-color); 
+} 
+
+h1, h6 { 
+	color: var(--secondary-color); 
+} 
+
+p { 
+	color: var(--primary-color); 
+} 
+
+/* Slider styling */
+.theme-switch-container { 
+	display: flex; 
+	align-items: center; 
+} 
+
+.theme-slider { 
+	display: inline-block; 
+	height: 34px; 
+	position: relative; 
+	width: 60px; 
+} 
+
+.slider { 
+	background-color: #868686; 
+	bottom: 0; 
+	cursor: pointer; 
+	left: 0; 
+	position: absolute; 
+	right: 0; 
+	top: 0; 
+	transition: .4s; 
+} 
+
+.slider:before { 
+	background-color: #fff; 
+	bottom: 4px; 
+	content: ""; 
+	height: 26px; 
+	left: 4px; 
+	position: absolute; 
+	transition: .4s; 
+	width: 26px; 
+} 
+
+input:checked+.slider { 
+	background-color: #FE828C; 
+} 
+
+input:checked+.slider:before { 
+	transform: translateX(26px); 
+} 
+
+.slider.round { 
+	border-radius: 34px; 
+} 
+
+.slider.round:before { 
+	border-radius: 50%; 
+}
